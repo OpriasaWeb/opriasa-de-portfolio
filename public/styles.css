@@ -31,13 +31,16 @@ a{
 }
 
 .personal, .cv, .media-icons{
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .media-icons{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
   font-size: 2.5rem;
   letter-spacing: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .media-icons a{
@@ -56,8 +59,13 @@ span{
 }
 
 .about-message{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   padding: 1rem 5rem 1rem 5rem;
+  width: 70%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  box-shadow: 5px 8px;
+  color: #170d0d;
 }
 
 .techs{
@@ -222,6 +230,26 @@ span{
   margin: 0 0 2rem 0;
 }
 
+@media only screen and (max-width: 320px){
+  .about-message{
+    width: 90%;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-message{
+    width: 90%;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about-message{
+    width: 90%;
+    padding: 0.3rem 0.8rem;
+  }
+}
 /* Projects */
 /* ------------------------------------------------------------------------------- */
 
