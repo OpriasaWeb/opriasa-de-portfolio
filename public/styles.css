@@ -234,8 +234,14 @@ span{
 .skills{
   /* border: 1px solid #ddd; */
   border-radius: 4px;
-  padding: 5px;
+  padding: 2px;
   width: 70px;
+}
+
+.postman{
+  border-radius: 4px;
+  padding: 2px;
+  width: 40px;
 }
 
 @media only screen and (max-width: 320px){
