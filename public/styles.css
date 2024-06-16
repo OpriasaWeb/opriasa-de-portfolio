@@ -92,21 +92,9 @@ span{
   padding-top: 3rem;
 }
 
-.work .first-work{
+.work .first-work, .second-work, .third-work, .fourth-work{
   margin: 2rem;
 }
-
-.work .second-work{
-  margin: 2rem;
-}
-
-.work .third-work{
-  margin: 2rem;
-}
-
-
-
-
 /* Work experiences */
 
 /* Contacts */
